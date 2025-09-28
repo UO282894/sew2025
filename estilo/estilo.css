@@ -14,8 +14,11 @@ header {
     background-color: #522546;
 }
 
-/* Especifidad 002, 002 */
-header h1, header nav {
-    /* Hereda el color de header */
+/* Especifidad 002, 002, 003, 013, 013, 013 */
+header h1, header nav, header nav a,
+header nav a:visited,
+header nav a:hover,
+header nav a:active {
+    /* Hereda el background-color de header */
     color: #F8F8E1;
 }
