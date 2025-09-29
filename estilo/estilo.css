@@ -14,8 +14,8 @@ header {
     background-color: #522546;
 }
 
-/* Especifidad 002, 002, 002, 012, 012, 012 */
-header h1, header nav, header a,
+/* Especifidad 002, 002, 012, 012, 012 */
+header h1, header nav,
 header a:visited,
 header a:hover,
 header a:active {
