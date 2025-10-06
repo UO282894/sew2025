@@ -20,6 +20,7 @@ header a:visited{
     /* Hereda el background-color de header - #522546 */
     color: #F8F8E1;
     text-decoration-line: none;
+    font-weight: bold;
 }
 
 /* Especifidad 012, 022 */
@@ -28,7 +29,6 @@ header a.active:visited
 {
     background-color: #F8F8E1;
     color: #522546;
-    font-weight: bold;
 }
 
 /* Especifidad  012*/
