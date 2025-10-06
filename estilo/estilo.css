@@ -14,11 +14,17 @@ header {
     background-color: #522546;
 }
 
-/* Especifidad 002, 012, 012, 012 */
+/* Especifidad 002, 012 */
 header a,
-header a:visited,
-header a:hover,
-header a:active {
+header a:visited{
     /* Hereda el background-color de header */
     color: #F8F8E1;
+}
+
+/* Especifidad 011, 021 */
+a.active,
+a.active:visited
+{
+    background-color: #A6DDC6;
+    color: black;
 }
