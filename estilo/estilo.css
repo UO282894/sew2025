@@ -34,6 +34,6 @@ header a.active:visited
 
 /* Especifidad  012*/
 body header + p:nth-last-child(1n+2){
-    font-size: 0.75em;
+    font-size: 0.75em; 
 }
 
