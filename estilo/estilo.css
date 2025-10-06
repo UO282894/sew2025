@@ -10,15 +10,16 @@ body{
 
 /* Especifidad 001 */
 header {
-    /* Hereda el color de body */
+    /* Hereda el color de body - #F8F8E1 */
     background-color: #522546;
 }
 
 /* Especifidad 002, 012 */
 header a,
 header a:visited{
-    /* Hereda el background-color de header */
+    /* Hereda el background-color de header - #522546 */
     color: #F8F8E1;
+    text-decoration-line: none;
 }
 
 /* Especifidad 012, 022 */
@@ -27,4 +28,9 @@ header a.active:visited
 {
     background-color: #A6DDC6;
     color: black;
+}
+
+/* Especifidad  002*/
+header + p{
+    font-size: 0.75em;
 }
