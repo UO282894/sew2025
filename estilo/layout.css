@@ -1,2 +1,18 @@
 /* Daniel Flores López, UO282894 */
 /* Esquemas de posicionamiento del proyecto MotoGP-Desktop*/
+
+/*Especificidad 001,001*/
+header, nav {
+    display: flex;
+    flex-direction: row;
+}
+/* Especificidad  001*/
+header {
+    justify-content: space-between;
+}
+/*Especificidad 001*/
+nav {
+    justify-content: center;
+    align-items: center;
+    gap: 0.5em 1em;
+}
