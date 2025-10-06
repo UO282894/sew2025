@@ -21,9 +21,9 @@ header a:visited{
     color: #F8F8E1;
 }
 
-/* Especifidad 011, 021 */
-a.active,
-a.active:visited
+/* Especifidad 012, 022 */
+header a.active,
+header a.active:visited
 {
     background-color: #A6DDC6;
     color: black;
