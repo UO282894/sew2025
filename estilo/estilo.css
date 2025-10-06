@@ -21,6 +21,7 @@ header a:visited{
     color: #F8F8E1;
     text-decoration-line: none;
     font-weight: bold;
+    padding: 1em;
 }
 
 /* Especifidad 012, 022 */
