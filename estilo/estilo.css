@@ -27,7 +27,8 @@ header a.active,
 header a.active:visited
 {
     background-color: #F8F8E1;
-    color: black;
+    color: #522546;
+    font-weight: bold;
 }
 
 /* Especifidad  012*/
