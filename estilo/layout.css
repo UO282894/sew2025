@@ -5,6 +5,7 @@
 header, nav {
     display: flex;
     flex-direction: row;
+    align-items: center;
 }
 /* Especificidad  001*/
 header {
@@ -13,6 +14,32 @@ header {
 /*Especificidad 001*/
 nav {
     justify-content: center;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 0.5em 1em;
+}
+@media screen {
+    /*Especificidad 001, 001*/
+    video, audio {
+        width:100%;
+    }
+}
+
+@media (max-width:799px){
+    /*Especificidad 001*/
+    header{
+        /* Redefine el atributo flex-direction de header para la definición especificada: flex-direction: row; */
+        flex-direction: column;
+    }
+}
+@media (max-width:530px){
+    /*Especificidad 001*/
+    nav {
+        /* Redefine el atributo flex-direction de nav para la definición especificada : flex-direction: row; */
+        flex-direction: column;
+    }
+
+    /*Especificidad 013*/
+    body header + p:nth-last-child(1n+2) {
+        display: none;
+    }
 }
