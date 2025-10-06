@@ -28,8 +28,8 @@ header a:visited{
 header a.active,
 header a.active:visited
 {
-    background-color: #F8F8E1;
-    color: #522546;
+    background-color: #c71f9a;
+    color: white;
 }
 
 /* Especifidad  012*/
